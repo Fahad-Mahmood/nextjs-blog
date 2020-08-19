@@ -6,6 +6,9 @@ import Link from 'next/link'
 import Date from '../components/date'
 
 export default function Home({ allPostsData }) {
+  console.log(process.env.NODE_ENV);
+  console.log(process.env.GM);
+  console.log(process.env.SDDS);
   return (
     <Layout home>
       <Head>
